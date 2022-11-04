@@ -27,7 +27,7 @@ public class Main {
         switch (monthNumber) {
             case 1:
             case 2:
-                System.out.println( " Зима ");
+                System.out.println(" Зима ");
                 break;
             case 3:
             case 4:
