@@ -51,7 +51,37 @@ public class Main {
                 System.out.println(" Такого месяца не существует ");
 
         }
+        // Задание 3.
+        System.out.println( "Задание 3 ");
+        int year = 2020;
+        if ((year % 4 == 0) && year % 100 != 0)
+        {
+            System.out.println(year + " год является високосным. ");
+        }
+        else if ((year % 4 == 0) && (year % 100 == 0) && (year % 400 == 0))
+        {
+            System.out.println(year + " год является високосным .");
+        }
+        else
+        {
+            System.out.println(year + " год не является високосным .");
+        }
+        // Задание 4
+        System.out.println(" Задание 4 ");
+        int deliveryDistance = 95;
+        int deliveryTime = 1;
+        if (deliveryDistance <= 20 ) {
+            System.out.println( "Потребуется дней:" +deliveryTime + " срок доставки");
+            }
+        else if (deliveryDistance> 20 && deliveryDistance <= 60 ) {
+            System.out.println( "Потребуется дней:" + ( deliveryTime +1) + " срок доставки " );
+        }
+        else if (deliveryDistance> 60 && deliveryDistance <= 100) {
+            System.out.println( "Потребуется дней:" + ( deliveryTime +2) + " срок доставки " );
+        }
 
-
+        }
     }
-}
+
+
+
